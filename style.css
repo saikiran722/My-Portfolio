@@ -198,7 +198,7 @@ p {
 }
 /* End Header section */
 
-/* Hero Section */
+/* Home Section */
 #home {
 	background-image: url(./img/hero-bg.png);
 	background-size: cover;
@@ -262,9 +262,9 @@ p {
 	animation-delay: 2.5s;
 }
 
-/* End Hero Section */
+/* End Home Section */
 
-/* Services Section */
+/* Skills Section */
 #skills .skills {
 	flex-direction: column;
 	text-align: center;
@@ -272,18 +272,18 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#skills .service-top {
+#skills .skills-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#skills .service-bottom {
+#skills .skills-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#skills .service-item {
+#skills .skills-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -298,7 +298,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#skills .service-item::after {
+#skills .skills-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -309,22 +309,22 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-#skills .service-bottom .icon {
+#skills .skills-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#skills .service-item h2 {
+#skills .skills-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#skills .service-item p {
+#skills .skills-item p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
+/* End Skills Section */
 
 /* Projects section */
 #projects .projects {
@@ -582,12 +582,12 @@ p {
 	}
 	/* End Hero */
 
-	/* Services Section */
-	#skills .service-bottom .service-item {
+	/* Skills Section */
+	#skills .skills-bottom .skills-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
+	/* End Skills Section */
 
 	/* Project */
 	#projects .project-item {
@@ -697,7 +697,7 @@ p {
 	}
 	/* End header */
 
-	#skills .service-bottom .service-item {
+	#skills .skills-bottom .skills-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
